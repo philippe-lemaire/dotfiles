@@ -1,6 +1,14 @@
-# Get External IP / Internet Speed
-alias myip="curl https://ipinfo.io/json" # or /ip for plain-text ip
-alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
+alias install="sudo dnf install"
+alias update="sudo dnf update"
+alias upgrade="sudo dnf update"
+alias search="dnf search"
+alias top="htop"
+alias fixbluetooth="sudo systemctl restart bluetooth"
+alias blog="HUG_ENV=production hugo"
+alias vps="ssh phil@vps796968.ovh.net -p 28"
+alias rs="python manage.py runserver"
+alias jl="jupyter lab"
+alias jn="jupyter notebook"
+alias vim="vimx"
+alias upgrade_pip="pip install --upgrade pip"
 
-# Quickly serve the current directory as HTTP
-alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)

@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
+	editor = vimx
 
 [alias]
   co = checkout
@@ -52,3 +52,5 @@
 [user]
 	email = philippe.lemaire@protonmail.com
 	name = Philippe Lemaire
+[init]
+	defaultBranch = main
