@@ -1,6 +1,6 @@
-set backupdir=/home/phil/tmp
+set backupdir=~/tmp
 set noswapfile
-colorscheme onedark
+"colorscheme onedark
 set number
 set autochdir
 
@@ -12,13 +12,12 @@ set expandtab
 
 map <F5> :bprevious<cr>
 map <F6> :bnext<cr>
-map <F7> :!python3 %<cr>
 
 "Pathogen
-filetype off
+"filetype off
 
-execute pathogen#infect()
-call pathogen#helptags()
+"execute pathogen#infect()
+"call pathogen#helptags()
 
 filetype plugin indent on
 syntax on

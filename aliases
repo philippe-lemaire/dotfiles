@@ -9,6 +9,5 @@ alias vps="ssh phil@vps796968.ovh.net -p 28"
 alias rs="python manage.py runserver"
 alias jl="jupyter lab"
 alias jn="jupyter notebook"
-alias vim="vimx"
 alias upgrade_pip="pip install --upgrade pip"
 
